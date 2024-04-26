@@ -1,8 +1,6 @@
 # API-TICKETS
 
-Se instala Docker utilizando Sail.
-Se usa postgresql como base de datos.
-
+Se instala Docker utilizando Sail. Se crean dos contenedores, uno es para laravel y otro para postgresql.
 ## Instrucciones de uso
 
 1) Clonar el repositorio.
