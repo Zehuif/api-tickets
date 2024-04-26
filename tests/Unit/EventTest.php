@@ -32,16 +32,16 @@ class EventTest extends TestCase
 
     public function test_purchase_successful(): void
     {
-        //$this->seed(DatabaseSeeder::class);
+        $this->seed(DatabaseSeeder::class);
         
 
         $response = $this->post('api/v1/purchase', [
-            'event_id' => 2,
+            'event_id' => 10,
             'client_id' => 1,
             'metodo_pago' => 'Tarjeta de credito',
         ]);
 
-        dd($response);
+        //dd($response);
 
         $response->assertStatus(200);
     }
