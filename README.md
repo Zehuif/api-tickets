@@ -18,7 +18,7 @@ Se usa postgresql como base de datos.
 ```url
    http://0.0.0.0:80/api/v1
 ```
-Se adjunta en la carpeta APOSTMAN los resultados de los endpoints (importar en postman).
+Se adjunta en la carpeta APOSTMAN los resultados de los endpoints (importar en postman y se verán los request con sus respectivos response, sin tener que enviar los request).
 
 ## Supuestos
 1) Cada cliente solo puede comprar una entrada por pedido.
