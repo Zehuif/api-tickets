@@ -1,6 +1,7 @@
 # API-TICKETS
 
 Se instala Docker utilizando Sail.
+Se usa postgresql como base de datos.
 
 ## Instrucciones de uso
 
